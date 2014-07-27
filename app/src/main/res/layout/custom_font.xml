@@ -1,0 +1,45 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CustomFont">
+
+    <com.leocardz.android.custom.font.views.NativelyCustomTextView
+        android:id="@+id/natively_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/natively"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/programmatically_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/programmatically"
+        android:textColor="#0000ff"
+        android:textSize="60sp" />
+
+    <com.leocardz.android.custom.font.views.NativelyCustomButton
+        android:id="@+id/natively_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/natively"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/programmatically_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/programmatically"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+
+</LinearLayout>
