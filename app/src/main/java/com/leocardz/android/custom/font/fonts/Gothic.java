@@ -8,18 +8,13 @@ import android.graphics.Typeface;
  */
 public class Gothic {
 
-    private Context context;
     private static Gothic instance;
     private static Typeface typeface;
-
-    public Gothic(Context context) {
-        this.context = context;
-    }
 
     public static Gothic getInstance(Context context) {
         synchronized (Gothic.class) {
             if (instance == null) {
-                instance = new Gothic(context);
+                instance = new Gothic();
                 typeface = Typeface.createFromAsset(context.getResources().getAssets(), "gothic.ttf");
             }
             return instance;
