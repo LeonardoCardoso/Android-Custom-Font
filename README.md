@@ -5,8 +5,6 @@ Developed by <a href='https://github.com/LeonardoCardoso' target='_blank'>@Leona
 
 Two ways to use custom fonts without memory leak using singleton classes.
 
-For more information about this, please access [Custom Font without Memory Leak](http://android.leocardz.com/android-custom-font-without-memory-leak/ "Custom Font without Memory Leak").
-
 ## Contact
 Contact me either by Twitter [@leocardz](https://twitter.com/leocardz) or emailing me to [contact@leocardz.com](mailto:contact@leocardz.com).
 
